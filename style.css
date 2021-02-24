@@ -4,6 +4,11 @@
     margin-left: 10px;
 }
 
+.navbar
+{
+    border-bottom: 1px solid #f3f3f3;
+}
+
 body
 {
     font-size: 18px;
@@ -15,7 +20,7 @@ body
 
 .container
 {
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 40px;
     font-family: Roboto;
     font-size: 16px;
@@ -71,6 +76,7 @@ body
     border-radius: 4px;
     width: 326px; 
     height: 240px;
+    font-size: 18px;
 }
 
 .checkout 
@@ -113,7 +119,8 @@ body
     padding: 0;
     display: inline-block;
     margin-top: 35px;
-
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .quantity-button {
@@ -135,11 +142,13 @@ body
     margin-bottom: 0;
     text-align: center;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     min-width: 42px;
     max-width: 59px;
     border: none;
     outline: none;
+    font-family: Montserrat;
+    font-weight: 500;
 }
 
 input::-webkit-outer-spin-button,
@@ -226,6 +235,8 @@ input[type='number'] {
 .price_margin
 {
     margin-top: 39px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .footer_links
