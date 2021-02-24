@@ -21,12 +21,12 @@
 </head>
 <body>
 <!-- Just an image -->
-<nav class="navbar navbar-light bg-light px-4">
+<nav class="navbar navbar-light px-4">
     <a class="navbar-brand" href="#">
     
     </a>
     <div class="my-2 my-lg-0" id="navbarText">
-        <img class="navimg" src="images/Group 41.png" alt="">
+        <img class="navimg" src="images/Group 42.png" alt="">
         <a class="btn header_btn">Place new order</a>
         <img class="navimg" src="images/Group 39.png" alt="">
       </div>    
@@ -41,7 +41,7 @@
             <div class="row">
                 <table class="table">
                     <thead class="t-head">
-                        <tr class="d-flex">
+                        <tr>
                             <th class="col-2">PRODUCT</th>
                             <th class="col-3"></th>
                             <th class="col-2">PRICE</th>
@@ -50,11 +50,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="d-flex">
-                            <td class="col-2">
+                        <tr>
+                            <td class="col-2 px-0">
                                 <img class="item-img" src="./image 2.png" alt="">
                             </td>
-                            <td class="col-3">
+                            <td class="col-3 px-0 pr-4">
                                 <div class="descr">
                                 <span>Rechargeable Wireless Speakers and Table Clock</span> <br>
                                 <span class="item_desc">Color: Black</span><br>
@@ -64,7 +64,7 @@
                                  
                             </td>
                             <td class="col-2">
-                                <p>7500 NGN</p>
+                                <p class="price_margin">7500 NGN</p>
                             </td>
                             <td class="col-3">
                                 <div class="quantity-controller">
@@ -91,14 +91,14 @@
                                 </div>               
                             </td>
                             <td class="col-2">
-                                <p><b>7,500 NGN</b></p>
+                                <p class="price_margin"><b>7,500 NGN</b></p>
                             </td>
                         </tr>
-                        <tr class="d-flex">
-                            <td class="col-2">
+                        <tr>
+                            <td class="col-2 px-0">
                                 <img class="item-img" src="./image 5.png" alt="">
                             </td>
-                            <td class="col-3">
+                            <td class="col-3 px-0">
                                 <div class="descr">
                                 <span>Portable Bluetooth Outdoor Speaker version-1539</span> <br>
                                 <span class="item_desc">Color: Red</span><br>
@@ -108,7 +108,7 @@
                                  
                             </td>
                             <td class="col-2">
-                                <p>19 500 NGN</p>
+                                <p class="price_margin">19 500 NGN</p>
                             </td>
                             <td class="col-3">
                                 <div class="quantity-controller">
@@ -135,7 +135,7 @@
                                 </div>              
                             </td>
                             <td class="col-2">
-                                <p><b>7,500 NGN</b></p>
+                                <p class="price_margin"><b>19,500 NGN</b></p>
                             </td>
                         </tr>                        
                     </tbody>
@@ -148,49 +148,49 @@
 
         </div>
         <div class="col-3 check">
-            <div class="order-s row">
-                <table class="table_summary">
-                    <thead>
-                        <tr class="checkout_tr">
-                            <td><b>Order Summary</b></td>
-                            <td></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="checkout_tr">
-                            <td class="item_desc">Subtotal:</td>
-                            <td>27,500</td>
-                        </tr>
-                        <tr class="checkout_tr">
-                            <td class="item_desc">Shipping:</td>
-                            <td>8,000 NGN</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="order-s">
+                        <div class="row checkout_tr">
+                            <div class="col"><b>Order Summary</b></div>
+                            <div class="col"></div>
+                        </div>
+                        <div class="row checkout_tr">
+                            <div class="col item_desc">Subtotal:</div>
+                            <div class="col">27,500</div>
+                            </div>
+                        <div class="row checkout_ltr">
+                            <div class="col item_desc">Shipping:</div>
+                            <div class="col">8,000 NGN</div>
+                        </div>
             </div>
-            <br> <br>
-            <div class="checkout row">
-                <div class="col">
-                    <span class="item_desc">Total Cost:</span> <br>
-                    <span>35,000 NGN</span>
-                </div>
-                <div class="col d-inline">
-                    <a href="" class="btn" style="background-color: #06415D; color: white;">Checkout</a>
+            <div class="checkout">
+                <div class="row">
+                    <div class="col">
+                        <span class="item_desc">Total Cost:</span> <br>
+                        <span class="checkout_price">35,000 NGN</span>
+                    </div>
+                    <div class="col d-inline">
+                        <a href="" class="btn checkout_btn" style="background-color: #06415D; color: white;">Checkout</a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>    
     <footer class="footer">
         <div class="container">
-          <div class="navbar navbar-fixed-bottom">
+          <div class="navbar navbar-fixed-bottom row">
               <div class="col">Stackfill. All Rights reserved</div>
-              <div class="col">Order Tracking</div>
-              <div class="col"> Support</div>
-              <div class="col">
-                  <img src="./Vector (1).png" alt="">
-                  <img src="./Vector (2).png" alt="">
-                  <img src="./Vector.png" alt="">
+              <div class="col"> 
+                <span class="footer_links">Order Tracking</span>
+                <span class="footer_links">Support</span> 
+                <span class="footer_links">Shipping Fees</span> 
+                <span class="footer_links">Return Policy</span>
+               </div>
+              <div class="col footer_img_div">
+                  <img class="footer_img" src="./images/Instagram.png" alt="">
+                  <img class="footer_img" src="./images/Youtube.png" alt="">
+                  <img class="footer_img" src="./images/Twitter.png" alt="">
               </div>
           </div>
         </div>
