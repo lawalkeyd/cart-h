@@ -243,3 +243,18 @@ input[type='number'] {
 {
     padding-right: 10px;
 }
+
+/*--mobile--*/
+@media (max-width: 978px) { 
+
+    .quantity-controller
+    {
+        padding-left: 10px;
+    }
+
+    .check
+    {
+        padding-left: 90px;
+    }
+
+ }
