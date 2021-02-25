@@ -249,12 +249,31 @@ input[type='number'] {
 
     .quantity-controller
     {
-        padding-left: 10px;
+        display: grid;
+        padding-right: 5px;
+        margin-top: 5px;
+
     }
 
     .check
     {
-        padding-left: 90px;
+        margin-right: 0px;
+        padding-top: 30px;
+        padding-left: 30px;
     }
 
+    .checkout_price {
+        font-size: 19px;
+    }
+
+    .price_margin {
+        margin-top: 24px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .quantity-text
+    {
+        font-size: 16px;
+    }
  }
